@@ -11,11 +11,6 @@
  */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
-
-/**
- * TODO: Refactor Left Pattern to right
- */
-
 	binary_tree_t *new_right;
 
 	if (!parent)
